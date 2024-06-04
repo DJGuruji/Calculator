@@ -4,7 +4,14 @@
   box-sizing: border-box;
 }
 
-
+.container{
+  background: #a0a2a3;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .calc{
   
   background-color: #363b42;
@@ -13,7 +20,7 @@
   width: 280px;
   height: 360px;
   margin: auto ;
-  margin-top: 150px;
+  
   
 }
 p{

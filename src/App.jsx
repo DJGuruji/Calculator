@@ -31,9 +31,9 @@ function App() {
   };
 
   return (
-    <>
+    <div className='container'>
       <div className="calc">
-        <p>GURUJI</p>
+        <p>DJGURUJI</p>
         <form>
           <input type="text" id="screen" readOnly value={screenValue} />
           <input type="button" className="button number" value="7" onClick={() => btnclick("7")} />
@@ -63,7 +63,7 @@ function App() {
           <br />
         </form>
       </div>
-    </>
+    </div>
   );
 }
 
