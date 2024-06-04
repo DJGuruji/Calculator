@@ -53,13 +53,15 @@ function App() {
           <br />
           <input type="button" className="button number" value="." onClick={btndeci} />
           <input type="button" className="button number" value="0" onClick={() => btnclick("0")} />
-          <input type="button" className="button number" value="=" onClick={calculate} />
+          <input type="button" className="button operator" value="%" onClick={() => btnclick("%")} />
           <input type="button" className="button operator" value="-" onClick={() => btnclick("-")} />
           <br />
-          <input type="button" className="button clear" value="ac" onClick={clearscreen} />
+          
           <input type="button" className="button number" value="(" onClick={() => btnclick("(")} />
           <input type="button" className="button number" value=")" onClick={() => btnclick(")")} />
-          <input type="button" className="button operator" value="%" onClick={() => btnclick("%")} />
+          <input type="button" className="button operator" value="x" onClick={() => btnclick("*")} />
+          <input type="button" className="button number" value="=" onClick={calculate} />
+          <input type="button" className="button clear" value="ac" onClick={clearscreen} />
           <br />
         </form>
       </div>
