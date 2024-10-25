@@ -2,7 +2,7 @@
 
 This is a simple calculator application that allows users to perform basic arithmetic operations.
 
-![Calculator Screenshot](https://github.com/DJGuruji/Calculator/blob/main/src/assets/img.jpeg?raw=true)
+<img src="https://github.com/DJGuruji/Calculator/blob/main/src/assets/img.jpeg?raw=true" alt="Calculator Screenshot" width="300" height="200">
 
 
 ## Installation
